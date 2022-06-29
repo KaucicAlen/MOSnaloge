@@ -1,0 +1,44 @@
+.divNaslov{
+    border: solid black 1px;
+    background-color: rgb(196, 196, 196);
+    margin: auto;
+    text-align: center;
+
+}
+
+.divNaslov p{
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+} 
+
+.mainDiv{
+    border: solid black 1px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+
+}
+
+
+table, th, td {
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: auto;  
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    font-size: larger;
+}
+
+td{
+    border-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 2px;
+}
+
+.gumb{
+    background-color: rgb(76, 163, 245);
+    box-shadow: black;
+}

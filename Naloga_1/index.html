@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osnovne metode</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+  <div class="divNaslov">
+    <p>Osnovne Metode</p>
+  </div>
+    
+  <div class="mainDiv">
+    <input type="file" id="fileUpload"/>
+    <input class="gumb" type="button" id="upload" value="Preberi datoteko" onclick="Upload()" />
+    <hr />
+    <div id="dvCSV">
+    </div>
+
+    <input class="gumb" type="button" id="upload" value="Izračunaj" onclick="GetCellValues()" />
+</div>
+
+<p id="pesimist"></p>
+<p id="optimist"></p>
+<p id="laplace"></p>
+<p id="savage"></p>
+
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
